@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cionatiner">
+        <div class="row">
+            <div class="intro col-12">
+                <h1>Todo Application</h1>
+            </div>
+            <div class="boarder1"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="helpdesk col-12">
+            <p class="first"> enter text into the input filed to add item to your list</p>
+            <p class="second">click the "x" to remove the item from your list</p>
+            <p class="third">click the item to mark it as complete</p>
+        </div>
+    </div>
+<!-- insert area -->
+    <div class="row">
+        <div class="col-12">
+            <input type="text" placeholder="New item...." id="userinput" maxlength="27">
+            <button id="enter" onclick="createListElement();" type="button" class="btn">Add</button>
+        </div>
+    </div>
+    <!-- calling list item area -->
+    <div class="row">
+        <div class="col-12 listItems">
+            <ul class="lists">
+                <!-- <li class="item">Buy a pen <span class="right">X</span></li>
+                <li class="item" >Call a dotor <span class="right">X</span></li>
+                <li class="item" >Bring some vegetables <span class="right">X</span></li> -->
+            </ul>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

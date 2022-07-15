@@ -1,0 +1,89 @@
+*{
+    margin:0;
+}
+body{
+    background-color: #00aeff;
+}
+.conatiner{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.row{
+flex:1;
+margin-bottom: 30px;
+justify-content: center;
+display: flex;
+}
+.col-12{
+width: 100%;
+text-align: center;
+}
+.intro{
+text-align: center;
+font-family: sans-serif;
+font-size: 25px;
+font-weight: bolder;
+margin-top: 25px;
+}
+.intro>h1{
+    margin: 0;
+    text-shadow: 1px 1px 4px black;
+    color: white;
+    text-transform: uppercase;
+}
+.helpdesk{
+font-family: sans-serif;
+display:flex;
+flex-direction: column;
+gap: 20px;
+}
+.first{
+color: red;
+}
+.secondd{
+color: darkblue;
+}
+.third{
+color: rgb(72,72,72);
+}
+#userinput{
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius:5px;
+    border:0;
+
+}
+.btn{
+    background-color: darkcyan;
+    padding: 10px 20px;
+    font-size: 26px;
+    border: 0;
+    border-radius: 5px;
+}
+.listItems{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.lists{
+    list-style: none;
+}
+.lists>li{
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 400px;
+    border: 1px solid darkcyan;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: cyan;
+    transition: all 0.75s ease;
+}
+.lists>.item:hover{
+background-color: darkcyan;
+color: white;
+}
+.right{
+    color: red;
+    float: right;
+}
