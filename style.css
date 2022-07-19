@@ -76,14 +76,23 @@ color: rgb(72,72,72);
     border: 1px solid darkcyan;
     margin-top: 10px;
     padding: 20px;
-    background-color: cyan;
+    /* background-color: ; */
     transition: all 0.75s ease;
+    text-align: start;
 }
 .lists>.item:hover{
 background-color: darkcyan;
 color: white;
 }
-.right{
+span{
     color: red;
     float: right;
+}
+.delete{
+    display: none;
+}
+.done{
+    text-decoration: line-through;
+    background-color:rgb(220, 16, 16) ;
+    color:rgb(227, 209, 12) ;
 }
